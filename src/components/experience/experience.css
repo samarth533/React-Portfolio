@@ -1,0 +1,77 @@
+.experience_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience_container > div{
+    background: var(--color-bg-exp);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.experience_container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.experience_container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-white);
+}
+
+.experience_container > div a{
+    color:bisque;
+}
+.experience_container > div a:hover{
+    color:var(--color-primary);
+}
+
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience_details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience_details-icons{
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    color: var(--color-primary);
+}
+
+
+/* Media Queries - Meduim Devices(Tablets) */
+@media screen and (max-width: 1024px) {
+    .experience_container{
+        grid-template-columns: 1fr;
+    }
+
+    .experience_container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience_content{
+        padding: 1rem;
+    }
+
+}
+
+
+/* Media Queries - Small Devices(Phones) */
+@media screen and (max-width: 1024px) {
+    .experience_container{
+        gap:1rem;
+    }
+    .experience_container > div{
+        width: 90%;
+        padding: 2rem 1rem;
+    }
+}
