@@ -71,4 +71,7 @@ input, textarea{
     .container.contact_container{
         width: var(--container-width-sm);
     }
+    textarea{
+        overflow: auto;
+    }
 }

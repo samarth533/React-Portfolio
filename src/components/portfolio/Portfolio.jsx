@@ -3,14 +3,15 @@ import './portfolio.css'
 import IMG1 from '../../assets/proj1.png'
 import IMG2 from '../../assets/proj2.png'
 import IMG3 from '../../assets/proj3.jpg'
+import IMG4 from '../../assets/proj4.png'
 
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    title : 'Portfolio - React,Html & CSS',
-    github: "https://github.com",
-    demo: "https://samarth533.netlify.app",
+    id: 4,
+    image: IMG4,
+    title : 'Flat Talks - Realtime chat App',
+    github: "https://github.com/samarth533/Chat-App",
+    demo: "https://flat-talks.onrender.com/",
   },
   {
     id: 2,
@@ -23,16 +24,16 @@ const data = [
     id: 3,
     image: IMG3,
     title : 'Snake Game - Python',
-    github: "https://github.com",
-    // demo: "https://github.com",
+    github: "https://github.com/samarth533/minor_project",
+    demo: "https://replit.com/@samarth533/Snake-Game-Python",
   },
-  // {
-  //   id: 4,
-  //   image: IMG1,
-  //   title : 'More Comming Soon...',
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // }
+  {
+    id: 1,
+    image: IMG1,
+    title : 'Portfolio - React,Html & CSS',
+    github: "https://github.com/samarth533/React-Portfolio",
+    demo: "https://samarth533.netlify.app",
+  },
 ]
 const Portfolio = () => {
   return (
